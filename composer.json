@@ -1,0 +1,32 @@
+{
+    "name": "haswalt/simple-queue-bundle",
+    "type": "symfony-bundle",
+    "description": "",
+    "keywords":["rest", "json", "api"],
+    "homepage": "http://github.com/haswalt/QueueBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harry Walter",
+            "homepage": "http://harrywalter.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9|~7.0",
+        "php-amqplib/php-amqplib": "^2.6"
+    },
+    "suggest": {
+        "nelmio/cors-bundle": "^1.4",
+        "nelmio/api-doc-bundle": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Haswalt\\QueueBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
